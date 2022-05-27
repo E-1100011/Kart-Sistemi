@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kartsistemi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name="com.example.kartsistemi.Activity.HarcaActivity"
+            android:exported="true"
+            android:label="Harca"
+            android:parentActivityName="com.example.kartsistemi.Activity.MainActivity" />
+        <activity
+            android:name="com.example.kartsistemi.Activity.BakiyeSorgulaActivity"
+            android:exported="true"
+            android:label="Bakiye Sorgula"
+            android:parentActivityName="com.example.kartsistemi.Activity.MainActivity" />
+        <activity
+            android:name="com.example.kartsistemi.Activity.BakiyeYukleActivity"
+            android:exported="true"
+            android:label="Bakiye Yükle"
+            android:parentActivityName="com.example.kartsistemi.Activity.MainActivity" />
+        <activity
+            android:name="com.example.kartsistemi.Activity.HakkindaActivity"
+            android:exported="true"
+            android:label="Hakkında"
+            android:parentActivityName="com.example.kartsistemi.Activity.MainActivity" />
+        <activity
+            android:name="com.example.kartsistemi.Activity.KartEkleActivity"
+            android:exported="true"
+            android:label="Kart ekle"
+            android:parentActivityName="com.example.kartsistemi.Activity.MainActivity" />
+        <activity
+            android:name="com.example.kartsistemi.Activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
